@@ -87,7 +87,7 @@ def get_callout(content, style, colorStyle, reviewId):
     # 根据不同的划线样式设置不同的emoji 直线type=0 背景颜色是1 波浪线是2
     emoji = "〰️"
     if style == 0:
-        emoji = "💡"
+        emoji = "📌"
     elif style == 1:
         emoji = "⭐"
     # 如果reviewId不是空说明是笔记
